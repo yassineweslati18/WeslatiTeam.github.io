@@ -1,0 +1,88 @@
+/* warm.css */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF3E8;
+    color: #5A3E36;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #FAD7B6;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 28px;
+    font-weight: 600;
+    color: #5A3E36;
+    text-decoration: none;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #5A3E36;
+    font-weight: 500;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #FFE5C4;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #A0522D;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #D27C2C;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section.light {
+    background-color: #FFF6EF;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services .box {
+    background-color: #FFE5C4;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    min-width: 200px;
+    font-weight: 500;
+}
+
+.footer {
+    text-align: center;
+    padding: 25px 10px;
+    background-color: #FAD7B6;
+    font-size: 14px;
+}

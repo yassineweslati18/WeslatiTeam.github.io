@@ -1,0 +1,151 @@
+/* dark.css */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0D0D0D;
+    color: #E0E0E0;
+    line-height: 1.6;
+}
+
+/* Theme Selector */
+.theme-selector {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.theme-selector select {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Header */
+.header {
+    background-color: #111111;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* position: fixed;
+    top: 10px;
+    width: 100%;*/
+}
+
+.header .logo {
+    font-size: 28px;
+    font-weight: 600;
+    color: #00C4FF;
+    text-decoration: none;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #E0E0E0;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #D27C2C;
+}
+
+/* Hero Section with Animated Gradient */
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+    background: linear-gradient(270deg,#E6E49F, #FF512F, #FF512F,#E6E49F);
+    background-size: 600% 600%;
+    animation: gradientBG 15s ease infinite;
+    height: 20vh;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #00C4FF;
+    margin-top:-20px ;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #D27C2C;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.services .box {
+    background-color: #222222;
+    padding: 30px;
+    border-radius: 10px;
+    min-width: 200px;
+    font-weight: 500;
+    color: #00C4FF;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.services .box:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* About & Contact Sections */
+#about, #contact {
+    background-color: #111111;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 40px 20px;
+}
+
+#about h2, #contact h2 {
+    color: #00C4FF;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 25px 10px;
+    background-color: #111111;
+    font-size: 14px;
+    color: #E0E0E0;
+}
+
+/* Animated Gradient Keyframes */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
